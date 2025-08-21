@@ -1,0 +1,52 @@
+name: jadwal_sholat
+description: "Aplikasi jadwal sholat sederhana menggunakan API Aladhan untuk wilayah Yogyakarta."
+
+# Mencegah package dipublikasi secara tidak sengaja ke pub.dev
+publish_to: 'none'
+
+# Versi aplikasi (major.minor.patch+build)
+version: 1.0.0+1
+
+# Environment SDK yang didukung
+environment:
+  sdk: ^3.6.2
+
+# Dependencies utama yang dibutuhkan aplikasi
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Package untuk HTTP requests ke API
+  http: ^0.13.5
+  
+  # Package untuk formatting tanggal dan waktu
+  intl: ^0.18.1
+  
+  # Icons untuk style iOS (opsional)
+  cupertino_icons: ^1.0.8
+
+# Dependencies untuk development dan testing
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting rules untuk kode yang lebih baik
+  flutter_lints: ^5.0.0
+
+# Konfigurasi khusus Flutter
+flutter:
+  # Menggunakan Material Design icons
+  uses-material-design: true
+  
+  # Assets (gambar, file, dll) - saat ini tidak ada
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  
+  # Custom fonts - saat ini tidak ada
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
